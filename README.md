@@ -28,13 +28,26 @@ This is the hosted repository maintained by Sonatype for OSS projects. The files
 ## From maven central repository
 Assuming you are using a build tool that can resolve dependencies from the maven 2 central repository, add the following to your project pom.xml
 
-`<dependency>
+* Maven
+```
+<dependency>
   <groupId>org.freeswitch.esl.client</groupId>
   <artifactId>esl-client-netty3</artifactId>
   <version>0.9.2</version>
   <type>pom</type>
-</dependency>`
- 
+</dependency>
+```
+* Gradle
+```
+implementation 'org.freeswitch.esl.client:esl-client-netty3:0.9.2'
+```
+
+* Ivy
+```
+<dependency org='org.freeswitch.esl.client' name='esl-client-netty3' rev='0.9.2'>
+  <artifact name='esl-client-netty3' ext='pom' ></artifact>
+</dependency>
+```
 
 # Runtime dependencies
 If you download and install the jar(s) manually, you must also supply the following jars on your Java classpath
