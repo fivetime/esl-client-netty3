@@ -1,6 +1,9 @@
 # Java esl client for netty3
 A Fork from http://git.freeswitch.org/git/freeswitch-contrib/tree/dvarnes/java/esl-client
 
+[![Travis](https://img.shields.io/travis/mgodave/esl-client.svg)](https://travis-ci.org/fivetime/esl-client-netty3)
+[![Maven Central](https://img.shields.io/maven-central/v/org.freeswitch.esl.client/org.freeswitch.esl.client.svg)](http://search.maven.org/#artifactdetails%7Corg.freeswitch.esl.client%7Cesl-client-netty3%7C0.9.2%7Cbundle)
+
 # About
 This page documents the org.freeswitch.esl.client library maintained in the freeswitch-contrib git repository. See Java ESL page for overview of other options for using Java with the FreeSWITCH Event Socket.
 
